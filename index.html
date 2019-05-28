@@ -6,7 +6,9 @@
     <title>Homepage</title>
     
     <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Jquery -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
@@ -21,9 +23,16 @@
     <!-- Page CSS -->
     <link rel="stylesheet" href="Styles/index.css" />
 
+    <!-- Page Scripts -->
+    <script src="Scripts/index.js"></script>
+
+    <!-- AOS Lib -->
+    <link href="Scripts/aos/aos.css" rel="stylesheet">
+    
+
 </head>
 <body>
-    <!--  -->
+    <!-- Project Group -->
     <div id="brandingPhilosophy">
         <div id="navBar" class="container">
 
@@ -31,11 +40,11 @@
                 <a class="navbar-brand" href="#">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-3">
                                 <img src="Images/branding_1.gif" width="50" height="50"/>
                             </div>
                             <div class="col">
-                                <span id="brandName">VENUS</span>
+                                <span id="brandName">NUCLEUS</span>
                             </div>
                         </div>
                     </div>
@@ -81,7 +90,7 @@
                     </div>
                     <div class="col">
                         <div id="landingPage">
-                            <img src="Images/landing_page.png" width="240" height="450"/>
+                            <img id="landingPageImage" src="Images/landing_page.png" width="240" height="450"/>
                         </div>
                     </div>
                 </div>
@@ -92,6 +101,144 @@
     </div>
 
 
+    <!-- Issue -->
+    <div id="issues" class="container">
+        <div id="issuesHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-right">
+                        <i class="fas fa-exclamation-triangle fa-4x"></i> 
+                    </div>
+                    <div class="col" id="issuesHeaderTitle">
+                        <div>
+                            Knowledge of Issues
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="issuesBody">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="card">
+                            <div class="card-header issueName">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3 text-right">
+                                            <i class="fas fa-exclamation-circle fa-2x"></i>
+                                        </div>
+                                        <div class="col">
+                                            Issues with Google My Maps
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body" id="googleMyMap">
+                                <img src="Images/Google_My_Maps.PNG" width="280" height="525">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        &nbsp;
+                    </div>
+
+                    <div class="col" id="issueDetails">
+                        <div class="card" data-aos="fade-left">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-database fa-3x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Incomplete data</h3>
+                                            <h6>
+                                                Many sculptures’ information is still missing
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card"  data-aos="fade-left">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                                <i class="fas fa-mobile-alt fa-3x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Poor mobile compatibility</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-left">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                                <i class="fas fa-align-right fa-3x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Limited forms of information associated with each art piece</h3>
+                                            <h6>
+                                                Only a very short textual description.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-left">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-map-marked-alt fa-3x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>No tracking of visitors’ engagement​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-left">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-plus fa-3x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>No interface to add new art pieces info.​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br> <br>
+
+    <script src="Scripts/aos/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 </body>
 </html>
 
