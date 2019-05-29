@@ -152,6 +152,10 @@ div {
     margin-top: 20px;
 }
 
+#issueDetails .card {
+    border-radius: 0.3cm;
+}
+
 #issueDetails .col-3 {
     text-align: center;
 }
@@ -169,7 +173,7 @@ div {
 #clientContainer {
     margin-top: 3cm;
     width: 100%;
-    height: 24cm;
+    height: 48cm;
     background-color: #F5FAFD;
 }
 
@@ -201,5 +205,36 @@ div {
 }
 
 #clientDetails i {
+    color: #375fb4;
+}
+
+/* End Users */
+
+#endUsersBody{
+    padding-top: 3cm;
+}
+
+#endUsersHeader{
+    color: #375fb4;
+}
+
+#endUsersDetails .card:nth-child(n+2) {
+    margin-top: 45px;
+}
+
+#endUsersDetails .card{
+    height: 120px;
+    background-color: #F5FAFD;
+}
+
+#endUsersDetails .col-3 {
+    text-align: center;
+}
+
+#endUsersDetails .col {
+    padding-top: 0.5cm;
+}
+
+#endUsersDetails i {
     color: #375fb4;
 }
