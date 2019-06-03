@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
     <title>Homepage</title>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Jquery -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <!-- Page CSS -->
     <link rel="stylesheet" href="Styles/index.css" />
@@ -28,90 +35,246 @@
 
     <!-- AOS Lib -->
     <link href="Scripts/aos/aos.css" rel="stylesheet">
-    
+
 
 </head>
+
 <body>
     <!-- Project Group -->
-    <div id="brandingPhilosophy">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: whitesmoke">
         <div id="navBar" class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="Images/branding_1.gif" width="50" height="50"/>
+
+            <a class="navbar-brand" href="#brandingPhilosophy">
+                <div class="container-fluid" style="padding: 0; width: 100%">
+                    <div class="row">
+                        <div class="col-3" style="padding-left: 8">
+                            <img id="nucleusLogo" src="Images/nucleus_logo.JPG" />
+                        </div>
+                        <div class="col">
+                            <span id="brandName">NUCLEUS</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <div class="btn-group">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false" style="cursor: pointer">
+                                HOW IT WORKS
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Project Aim</a>
+                                <a class="dropdown-item" href="#endUsersHeader">Targeted Users</a>
+                                <a class="dropdown-item">Design Methodology</a>
                             </div>
-                            <div class="col">
-                                <span id="brandName">NUCLEUS</span>
+                        </div>
+                        <!-- <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clientContainer">OUR CLIENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutUsContainer">ABOUT NUCLEUS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contactNav" class="btn btn-outline-dark">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div id="brandingPhilosophy">
+        <div id="introduction" class="container">
+            <div class="row">
+                <div class="col">
+
+                    <div id="introductionText">
+                        <h1 class="text-white">UOW Sculptures App</h1>
+                        <div id="introductionDesc">
+                            <p>A multi-functional cross-platform mobile application for users to browse information
+                                about UOWAC outdoor sculptures.</p>
+                            <ul class=" list-unstyled">
+                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Open street
+                                    map</li>
+                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Real-time
+                                    push notifications</li>
+                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Social
+                                    engagement</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline-light roboto" href="#features">Start Exploring</a>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div id="landingPage">
+                        <img id="landingPageImage" src="Images/landing_page.png" width="240" height="450" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Client -->
+
+    <div id="clientContainer" class="dosis">
+        <div class="container">
+            <div id="clientHeader" class="Header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 text-right">
+                            <i class="fas fa-user-tie fa-4x"></i>
+                        </div>
+                        <div class="col HeaderTitle" id="clientHeaderTitle">
+                            <div>
+                                Our Client
                             </div>
                         </div>
                     </div>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Members</a>
-                        </li>
-                        <li class="nav-item">
-                            <button id="contactNav" class="btn btn-light" >Contact Us</button>
-                        </li>
-                    </ul>
                 </div>
-            </nav>
+            </div>
 
-            <div id="introduction" class="container">
+            <div id="clientBody" class="ContentBody">
+                <div class="row">
+                    <div class="col" id="clientDetails" data-aos="fade-up-right" data-aos-duration="2000">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-tie fa-4x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Karen Cass​</h3>
+                                            <h3>The Collection Manager​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-tie fa-4x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Janise Miechel​</h3>
+                                            <h3>The Collection Coordinator​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-right">
+                        <img src="Images/ArtCollection_Logo.PNG" style="margin-right: 0.5cm" width="450" height="450"
+                            data-aos="fade-up-left" data-aos-duration="2000">
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Users -->
+            <hr style="margin-top: 5cm">
+
+            <div id="endUsersHeader" class="Header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 text-right">
+                            <i class="fas fa-users fa-4x"></i>
+                        </div>
+                        <div class="col HeaderTitle" id="endUsersHeaderTitle">
+                            <div>
+                                End Users
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="endUsersBody" class="ContentBody">
                 <div class="row">
                     <div class="col">
-    
-                        <div id="introductionText">
-                            <h1 class="text-white">UOWAC Sculptures App</h1>
-                            <div id="introductionDesc">
-                                <p>A multi-functional cross-platform mobile application for users to browse information about outdoor sculptures</p>
-                                <ul class=" list-unstyled">
-                                    <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Google integrated map</li>
-                                    <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Real-time push notifications</li>
-                                    <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Social engagement</li>
-                                </ul>
-                            </div>
-                            <button class="btn btn-light" href="#features">Start Exploring</a>
-                        </div>
-    
+                        <img src="Images/UOW_Logo.jpg" width="450" height="450" data-aos="fade-up-right"
+                            data-aos-duration="2000">
                     </div>
-                    <div class="col">
-                        <div id="landingPage">
-                            <img id="landingPageImage" src="Images/landing_page.png" width="240" height="450"/>
-                        </div>
-                    </div>
-                </div>
 
+                    <div class="col" id="endUsersDetails" data-aos="fade-up-left" data-aos-duration="2000">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-circle fa-4x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>UOW Students​​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-circle fa-4x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>UOW Art Collection staffs​</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fas fa-user-circle fa-4x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h3>Guests/Visitors</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
     </div>
 
-
     <!-- Issue -->
-    <div id="issues" class="container">
+    <div id="issuesContainer" class="container dosis">
         <div id="issuesHeader">
             <div class="container">
                 <div class="row">
                     <div class="col-4 text-right">
-                        <i class="fas fa-exclamation-triangle fa-4x"></i> 
+                        <i class="fas fa-exclamation-triangle fa-4x"></i>
                     </div>
                     <div class="col" id="issuesHeaderTitle">
                         <div>
-                            Knowledge of Issues
+                            Current Problems
                         </div>
                     </div>
                 </div>
@@ -164,12 +327,12 @@
                             </div>
                         </div>
 
-                        <div class="card"  data-aos="fade-left">
+                        <div class="card" data-aos="fade-left">
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-3">
-                                                <i class="fas fa-mobile-alt fa-3x"></i>
+                                            <i class="fas fa-mobile-alt fa-3x"></i>
                                         </div>
                                         <div class="col">
                                             <h3>Poor mobile compatibility</h3>
@@ -184,7 +347,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-3">
-                                                <i class="fas fa-align-right fa-3x"></i>
+                                            <i class="fas fa-align-right fa-3x"></i>
                                         </div>
                                         <div class="col">
                                             <h3>Limited forms of information associated with each art piece</h3>
@@ -234,143 +397,154 @@
     </div>
 
 
-    <!-- Client -->
+    <!-- Meet Our Team -->
+    <div id="aboutUsContainer" class="container dosis">
+        <hr />
+        <div class="Header text-center">
+            <div class="HeaderTitle">
+                Meet Our Team
+            </div>
+            <span class="annotation">Our team members are from different backgrounds</span>
+        </div>
 
-    <div id="clientContainer">
-        <div class="container">
-            <div id="clientHeader" class="Header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-5 text-right">
-                            <i class="fas fa-user-tie fa-4x"></i> 
+        <div id="aboutUsBody" class="container">
+
+            <!-- Third Row -->
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/ThaoPham.jpg" class="avatar" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Thao Pham</div>
+                                        <div class="avatarRole avatarDetails">Project Manager <br> System Analyst</div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
+                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col HeaderTitle" id="clientHeaderTitle">
-                            <div>
-                                Our Client
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/HoaiNam.jpg" class="avatar" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Hoai Nam Nguyen</div>
+                                        <div class="avatarRole avatarDetails">System Analyst<br><br></div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
+                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="clientBody" class="ContentBody">
-                <div class="row">
-                    <div class="col" id="clientDetails" data-aos="fade-up-right" data-aos-duration="2000">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-tie fa-4x"></i> 
+            <!-- First Row -->
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/LongHung.jpg" class="avatar" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Long Hung Nguyen</div>
+                                        <div class="avatarRole avatarDetails">Back-End Developer</div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
                                         </div>
-                                        <div class="col">
-                                            <h3>Karen Cass​</h3>
-                                            <h3>The Collection Manager​</h3>
-                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-tie fa-4x"></i> 
-                                        </div>
-                                        <div class="col">
-                                            <h3>Janise Miechel​</h3>
-                                            <h3>The Collection Coordinator​</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col text-right">
-                        <img src="Images/ArtCollection_Logo.PNG" style="margin-right: 0.5cm" width="450" height="450" data-aos="fade-up-left" data-aos-duration="2000">
                     </div>
                 </div>
-            </div>
-
-            <!-- End Users -->
-            <hr style="margin-top: 5cm">
-
-            <div id="endUsersHeader" class="Header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-5 text-right">
-                            <i class="fas fa-users fa-4x"></i>
-                        </div>
-                        <div class="col HeaderTitle" id="endUsersHeaderTitle">
-                            <div>
-                                End Users
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/HieuChu.jpg" class="avatar" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Chi Hieu Chu</div>
+                                        <div class="avatarRole avatarDetails">Front-End Developer</div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
+                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="endUsersBody" class="ContentBody">
-                <div class="row">
-                    <div class="col">
-                        <img src="Images/UOW_Logo.jpg" width="450" height="450">
-                    </div>
-
-                    <div class="col" id="endUsersDetails" data-aos="flip-left" data-aos-duration="3000" >
-                        <div class="card" >
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i> 
-                                        </div>
-                                        <div class="col">
-                                            <h3>UOW Students​​</h3>
-                                        </div>
+            <!-- Second Row -->
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/NamJose.PNG" class="avatar" />
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i> 
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Hoang Nam Bui</div>
+                                        <div class="avatarRole avatarDetails">UI/UX Designer</div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
                                         </div>
-                                        <div class="col">
-                                            <h3>UOW Art Collection staffs​</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i> 
-                                        </div>
-                                        <div class="col">
-                                            <h3>Guests/Visitors</h3>
-                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/Members/MinhNguyen.PNG" class="avatar" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="avatarName avatarDetails">Quang Minh Nguyen</div>
+                                        <div class="avatarRole avatarDetails">Database Deeveloper</div>
+                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
+                                        </div>
+                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
 
         </div>
     </div>
-
     <br> <br>
 
     <script src="Scripts/aos/aos.js"></script>
@@ -378,5 +552,5 @@
         AOS.init();
     </script>
 </body>
-</html>
 
+</html>

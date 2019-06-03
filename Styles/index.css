@@ -1,76 +1,85 @@
 /* Nav Bar */
 
-div {
+#nucleusLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 1cm;
+    border: whitesmoke solid 2px;
+}
+
+.roboto {
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+}
+
+.dosis {
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
 }
 
 #brandingPhilosophy {
     width: 100%;
     height: 18cm;
-    background-color: #c03030;
-    background-image: linear-gradient(to bottom right, #375fb4 , #b83f63);
+    background-color: #0C2340;
+    /* #c03030; */
+    /* background-image: linear-gradient(to bottom right, #375fb4 , #b83f63); */
 }
 
 #navBar {
-    padding-top: 30px;
-    
+    padding-top: 0px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
 }
 
 #navbarNav {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
 }
 
-#navbarNav a {
-    color: white;
-}
+
+#navbarNav .dropdown-item {
+    font-size: 16px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+} 
 
 #brandName {
     font-size: 30px;
     font-weight: 600;
     line-height: 50px;
-    color: white;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
 }
 
 #contactNav {
-    font-size: 20px;
-    line-height: 35px;
-}
+    border-radius: 1cm;
+    line-height: 27px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    margin-top: -2px;
+    font-weight: 800;
+} 
 
-.btn-light {
+#contactNav:hover {
+    color: white;
+} 
+
+.btn-outline-light {
     background-color: transparent;
     border-radius: 1cm;
     color: white;
     border-color: white;
+    outline: none !important;
     box-shadow: none;
 } 
 
-.btn-light:hover {
+.btn-outline-light:hover, .btn-outline-light:active {
     background-color: white;
     border-color: transparent;
     color: black;
-    box-shadow: none;
-    
-}
-
-.btn-light:active {
-    background-color: white;
-    border-color: transparent;
-    color: black;
+    outline: none !important;
     box-shadow: none;
 }
 
-.btn-light:focus {
-    background-color: white;
-    border-color: transparent;
-    color: black;
-    box-shadow: none;
-}
+
 
 /* Introduction */
 
 #introduction {
-    margin-left: 0.5cm;
     color: white;
 }
 
@@ -78,14 +87,19 @@ div {
     padding-top: 100px;
 }
 
+#introductionText h1 {
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
 #introductionText button {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #introductionDesc {
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
 }
 
 #landingPage {
@@ -98,6 +112,10 @@ div {
 }
 
 /* Issue */
+
+#issuesContainer {
+    margin-bottom: 3cm;
+}
 
 .Header {
     padding-top: 80px;
@@ -171,7 +189,6 @@ div {
 /* Client */
 
 #clientContainer {
-    margin-top: 3cm;
     width: 100%;
     height: 48cm;
     background-color: #F5FAFD;
@@ -237,4 +254,47 @@ div {
 
 #endUsersDetails i {
     color: #375fb4;
+}
+
+/* Meet Our Team */
+.annotation {
+    color: rgb(173, 168, 168);
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+}
+
+#aboutUsBody {
+    margin-top: 2cm;
+}
+
+#aboutUsBody .row {
+    margin-bottom: 1.5cm;
+}
+
+#aboutUsBody .card {
+    background-color : #F5FAFD;
+    border-radius: 0.5cm;
+    height: 7cm;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 5cm;
+}
+
+.avatarDetails {
+    margin-bottom: 20px;
+}
+
+.avatarName {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.avatarRole {
+    font-size: 22px;
+}
+
+.avatarMajor {
+    margin-bottom: 5px;
 }
