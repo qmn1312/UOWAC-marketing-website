@@ -88,17 +88,18 @@
 }
 
 #introductionText h1 {
+    font-size: 50px;
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
 }
 
 #introductionText button {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #introductionDesc {
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Roboto", "Helvetica", Arial, sans-serif;
 }
 
@@ -161,8 +162,8 @@
 }
 
 #googleMyMap {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 66px;
+    padding-bottom: 66px;
     text-align: center;
 }
 
@@ -297,4 +298,37 @@
 
 .avatarMajor {
     margin-bottom: 5px;
+}
+
+/* Contact Us */
+
+#contactContainer {
+    padding: 3cm;
+    background-color: #0C2340;
+    text-align: center;
+    color: white;
+}
+
+#contactTitle {
+    font-size: 40px;
+}
+
+#contactGetInTouch {
+    margin-top: 40px;
+    font-size: 30px;
+    
+}
+
+#contactEmail {
+    margin-top: 60px;
+}
+
+#contactEmailLink{
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#contactEmailLink:hover {
+    text-decoration: underline;
 }
