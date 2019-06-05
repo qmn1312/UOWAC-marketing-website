@@ -304,9 +304,7 @@
 
 #contactContainer {
     padding: 3cm;
-    background-color: #0C2340;
     text-align: center;
-    color: white;
 }
 
 #contactTitle {
@@ -314,18 +312,17 @@
 }
 
 #contactGetInTouch {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
-    
 }
 
 #contactEmail {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 #contactEmailLink{
     font-size: 20px;
-    line-height: 40px;
+    line-height: 25px;
     cursor: pointer;
 }
 
