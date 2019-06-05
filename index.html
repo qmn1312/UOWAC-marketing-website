@@ -41,7 +41,7 @@
 
 <body>
     <!-- Project Group -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: whitesmoke">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: white">
         <div id="navBar" class="container">
 
 
@@ -62,38 +62,47 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#clientContainer">OUR CLIENT</a>
                     </li>
                     <li class="nav-item active">
-                        <div class="btn-group">
+                        <div class="btn-group dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false" style="cursor: pointer">
                                 HOW IT WORKS
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Why this app?</a>
+                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#endUsersHeader">Targeted Users</a>
+                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Design Methodology</a>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <div class="btn-group">
+                        <a class="nav-link" href="#">USER INTERFACES</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn-group dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false" style="cursor: pointer">
                                 ABOUT NUCLEUS
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Mission</a>
+                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Vision</a>
+                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#aboutUsContainer">Members</a>
                             </div>
                         </div>
                     </li>
+                </ul>
+                <ul  class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a id="contactNav" class="btn btn-outline-dark">CONTACT US</a>
+                        <a id="contactNav" class="btn btn-outline-dark" style="cursor: pointer">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -111,7 +120,7 @@
                         <h1 class="text-white">UOW Sculptures App</h1>
                         <div id="introductionDesc">
                             <p>A multi-functional cross-platform mobile application for users to browse information
-                                about UOWAC outdoor sculptures.</p>
+                                about UOW Art Collection outdoor sculptures.</p>
                             <ul class=" list-unstyled">
                                 <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Open street
                                     map</li>
@@ -121,13 +130,13 @@
                                     engagement</li>
                             </ul>
                         </div>
-                        <button class="btn btn-outline-light roboto" href="#features">Start Exploring</a>
+                        <button class="btn btn-outline-light roboto" href="#">Start Exploring</a>
                     </div>
 
                 </div>
                 <div class="col">
                     <div id="landingPage">
-                        <img id="landingPageImage" src="Images/landing_page.png" width="240" height="450" />
+                        <img id="landingPageImage" src="Images/UI/Iphone X - Slash Screen.png" width="450" height="700" />
                     </div>
                 </div>
             </div>
@@ -138,36 +147,122 @@
 
     <!-- Client -->
 
-    <div id="clientContainer" class="dosis">
-        <div class="container">
-            <div id="clientHeader" class="Header">
-                <div class="container">
+    <div id="clientContainer" class="container">
+        <div class="row">
+            <div class="col-5 text-center">
+                <div class="clientHeader">Our Client</div>
+                <img src="Images/ArtCollection_Logo.PNG" width="370" height="370">
+            </div>
+            <div class="col">
+                <div class="clientHeader">University of Wollongong Art Collection</div>
+                <div style="text-align: justify; font-size: 19px; line-height: 1cm" class="roboto">The University of Wollongong Art Collection (UOWAC) has been a part of the University of Wollongong since the 1960s. Today the collection comprises over 5000 individual works ranging from paintings, prints, ceramics, textiles and a number of outdoor sculptures. Art works are displayed across several campus locations including UOW's main Wollongong campus, Innovation Campus, Nowra, Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business School. UOWAC aims to collect and care for works of art with significance to the University and wider Illawarra region. Art is an integral part of campus life for students, staff, the local community and wider art lovers who want to enjoy the collection.</div>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-5 text-center">
+                <div class="clientHeader">
+                    <div class="container" >
+                        <div class="row" style="margin-bottom: 20px">
+                            <div class="col">
+                                    Direct Clients
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col ">
+                                    On Project
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="directClient" class="container">
+                    <div class="row" style="margin-bottom: 10px">
+                        <div class="col-2 text-center">
+                            <i class="fas fa-user-tie fa-3x"></i>
+                        </div>
+                        <div class="col">
+                            <h3>Karen Cass - The Collection Manager</h3>
+                        </div>
+                    </div>
+                    <br>
                     <div class="row">
-                        <div class="col-5 text-right">
-                            <i class="fas fa-user-tie fa-4x"></i>
+                        <div class="col-2 text-center">
+                            <i class="fas fa-user-tie fa-3x"></i>
                         </div>
-                        <div class="col HeaderTitle" id="clientHeaderTitle">
-                            <div>
-                                Our Client
-                            </div>
+                        <div class="col">
+                            <h3>Janise Miechel – The Collection Coordinator​</h3>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div id="clientBody" class="ContentBody">
+     <!-- Issue -->
+     <div id="issuesContainer" class="container dosis">
+         <hr>
+        <div id="issuesHeader">
+            <div class="container">
                 <div class="row">
-                    <div class="col" id="clientDetails" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="col-4 text-right">
+                        <i class="fas fa-exclamation-triangle fa-4x"></i>
+                    </div>
+                    <div class="col" id="issuesHeaderTitle">
+                        <div>
+                            Current Problems
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="issuesBody">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="card">
+                            <div class="card-header issueName">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3 text-right">
+                                            <i class="fas fa-exclamation-circle fa-2x"></i>
+                                        </div>
+                                        <div class="col">
+                                            Issues with Google My Maps
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body" id="googleMyMap">
+                                <img src="Images/Google_My_Maps.PNG" width="300" height="500">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        &nbsp;
+                    </div>
+
+                    <div class="col" id="issueDetails">
                         <div class="card">
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-tie fa-4x"></i>
+                                        <div class="col-2">
+                                            <i class="fas fa-database fa-2x"></i>
                                         </div>
                                         <div class="col">
-                                            <h3>Karen Cass​</h3>
-                                            <h3>The Collection Manager​</h3>
+                                            <h4>Incomplete data</h4>
+                                            <h6>
+                                                Many sculptures’ information is still missing
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
@@ -178,27 +273,96 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-tie fa-4x"></i>
+                                        <div class="col-2">
+                                            <i class="fas fa-mobile-alt fa-2x"></i>
                                         </div>
                                         <div class="col">
-                                            <h3>Janise Miechel​</h3>
-                                            <h3>The Collection Coordinator​</h3>
+                                            <h4>Poor mobile compatibility</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col text-right">
-                        <img src="Images/ArtCollection_Logo.PNG" style="margin-right: 0.5cm" width="450" height="450"
-                            data-aos="fade-up-left" data-aos-duration="2000">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <i class="fas fa-align-right fa-2x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h4>Limited forms of information associated with each art piece</h4>
+                                            <h6>
+                                                Only display a very short textual description.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <i class="fas fa-map-marked-alt fa-2x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h4>No tracking of visitors’ engagement​</h4>
+                                            <h6>
+                                                Lack of understanding of visitor's behaviors.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <i class="fas fa-user-plus fa-2x"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h4>No interface for adding new art pieces information​</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+     <!-- Why -->
+     <div class="container">
+        <hr style="margin-top: 3cm">
+        <br> <br>
+        <div class="row">
+            <div class="col-5">
+                <img src="Images/UI/Iphone X - Intro Screen.png"  width="450" height="700" >
+            </div>
+            <div class="col">
+                <h2>Why this app?</h2>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="endUsersContainer" class="dosis">
+        <div class="container">
+            
+            <hr style="padding-top: 3cm" />
 
             <!-- End Users -->
-            <hr style="margin-top: 5cm">
 
             <div id="endUsersHeader" class="Header">
                 <div class="container">
@@ -218,11 +382,10 @@
             <div id="endUsersBody" class="ContentBody">
                 <div class="row">
                     <div class="col">
-                        <img src="Images/UOW_Logo.jpg" width="450" height="450" data-aos="fade-up-right"
-                            data-aos-duration="2000">
+                        <img src="Images/UOW_Logo.jpg" width="450" height="450">
                     </div>
 
-                    <div class="col" id="endUsersDetails" data-aos="fade-up-left" data-aos-duration="2000">
+                    <div class="col" id="endUsersDetails">
                         <div class="card">
                             <div class="card-body">
                                 <div class="container">
@@ -275,300 +438,223 @@
         </div>
     </div>
 
-    <!-- Issue -->
-    <div id="issuesContainer" class="container dosis">
-        <div id="issuesHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 text-right">
-                        <i class="fas fa-exclamation-triangle fa-4x"></i>
-                    </div>
-                    <div class="col" id="issuesHeaderTitle">
-                        <div>
-                            Current Problems
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Design Methodology -->
+    <div class="container dosis">
+        <hr style="padding-top: 2cm">
+        <div class="text-center HeaderTitle">
+            Design Methodology
         </div>
-
-        <div id="issuesBody">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-
-                        <div class="card">
-                            <div class="card-header issueName">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3 text-right">
-                                            <i class="fas fa-exclamation-circle fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            Issues with Google My Maps
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body" id="googleMyMap">
-                                <img src="Images/Google_My_Maps.PNG" width="350" height="550">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-1">
-                        &nbsp;
-                    </div>
-
-                    <div class="col" id="issueDetails">
-                        <div class="card" data-aos="fade-left">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-database fa-3x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>Incomplete data</h3>
-                                            <h6>
-                                                Many sculptures’ information is still missing
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" data-aos="fade-left">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-mobile-alt fa-3x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>Poor mobile compatibility</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" data-aos="fade-left">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-align-right fa-3x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>Limited forms of information associated with each art piece</h3>
-                                            <h6>
-                                                Only display a very short textual description.
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" data-aos="fade-left">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-map-marked-alt fa-3x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>No tracking of visitors’ engagement​</h3>
-                                            <h6>
-                                                Lack of understanding of visitor's behaviors.
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" data-aos="fade-left">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-plus fa-3x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>No interface for adding new art pieces information​</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Why -->
-    <div class="container">
-        <hr>
-        <br> <br>
         <div class="row">
-            <div class="col text-center">
-                <img src="Images/landing_page.png"  width="240" height="450" >
+            <div class="col">
+                <!-- <div class="card">
+                    <div class="card-header">
+                        Kanban
+                    </div>
+                    <div class="card-body">
+                        AAA
+                    </div>
+                </div> -->
             </div>
             <div class="col">
-                <h2>Why this app?</h2>
-                
+
             </div>
         </div>
     </div>
 
+   
+   <!-- About Nucleus -->
+
     <!-- Meet Our Team -->
-    <div id="aboutUsContainer" class="container dosis">
-        <hr />
-        <div class="Header text-center">
+    <div id="meetOurTeamContainer" class="container dosis">
+        <hr style="padding-top: 3cm" />
+
+        <div class="text-center aboutNucleus">
+            <img src="Images/Mission.JPG" />
+            <div class="HeaderTitle">
+                Our Mission
+            </div>
+            <div class="roboto">Our team is established with highly skilled and enthusiastic individuals from different backgrounds.</div>
+        </div>
+
+        <div class="text-center aboutNucleus">
+            <img src="Images/Vision.JPG" />
+            <div class="HeaderTitle">
+                Vision
+            </div>
+            <div class="roboto">Our team is established with highly skilled and enthusiastic individuals from different backgrounds.</div>
+        </div>
+
+        <div class="text-center">
             <div class="HeaderTitle">
                 Meet Our Team
             </div>
             <span class="annotation">Our team is established with highly skilled and enthusiastic individuals from different backgrounds.</span>
         </div>
 
-        <div id="aboutUsBody" class="container">
-
-            <!-- Third Row -->
+        <div id="meetOurTeamBody" class="container">
             <div class="row">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/ThaoPham.jpg" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Thao Pham</div>
-                                        <div class="avatarRole avatarDetails">Project Manager</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Business Information Systems
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/ThaoPham.jpg" width="120" height="120">
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <div class="avatarName">Thao Pham</div>
+                                    <div class="memberRole">Project Manager</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Business Information System</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/HoaiNam.jpg" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Hoai Nam Nguyen</div>
-                                        <div class="avatarRole avatarDetails">System Analyst</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/LongHung.jpg" width="120" height="120">
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <div class="avatarName">Long Hung</div>
+                                    <div class="memberRole">Back-End Developer</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/HieuChu.jpg" width="120" height="120">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="avatarName">Hieu Chu</div>
+                                    <div class="memberRole">Front-End Developer</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- First Row -->
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/LongHung.jpg" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Long Hung Nguyen</div>
-                                        <div class="avatarRole avatarDetails">Back-End Developer</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/HieuChu.jpg" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Chi Hieu Chu</div>
-                                        <div class="avatarRole avatarDetails">Front-End Developer</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <br>
             <!-- Second Row -->
             <div class="row">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/NamJose.PNG" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Hoang Nam Bui</div>
-                                        <div class="avatarRole avatarDetails">UI/UX Designer</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/HoaiNam.jpg" width="120" height="120">
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <div class="avatarName">Nam Nguyen</div>
+                                    <div class="memberRole">System Analyst</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img src="Images/Members/MinhNguyen.PNG" class="avatar" />
-                                    </div>
-                                    <div class="col">
-                                        <div class="avatarName avatarDetails">Quang Minh Nguyen</div>
-                                        <div class="avatarRole avatarDetails">Database Deeveloper</div>
-                                        <div class="avatarMajor annotation avatarDetails">Bachelor of Computer Science
-                                        </div>
-                                        <div class="avatarUni annotation avatarDetails">University of Wollongong</div>
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/NamJose.PNG" width="120" height="120">
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <div class="avatarName">Nam Bui</div>
+                                    <div class="memberRole">UI/UX Designer</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-5 text-center">
+                                    <div>
+                                        <img src="Images/Members/MinhNguyen.PNG" width="120" height="120">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="avatarName">Minh Nguyen</div>
+                                    <div class="memberRole">Database Developer</div>
+                                    
+                                </div>
+                                
+                                <div class="memberInfo">
+                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
+                                    <div class="memberUni annotation">University of Wollongong</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
 
         </div>
