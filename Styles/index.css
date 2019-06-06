@@ -71,7 +71,7 @@
 }
 
 #navbarNav > .mx-auto > li {
-    margin-left: 0.7cm;
+    margin-left: 1cm;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -156,11 +156,70 @@
 }
 
 #directClient h3 {
-    padding-top : 10px;
+    margin-bottom : 15px;
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
 }
 
+/* Why this app */
+#whyThisAppContent {
+    padding-top: 2cm;
+}
 
+#whyThisAppHeader {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.reasonIconHeader{
+    margin-bottom: 30px;
+    color: #375fb4;
+}
+
+.reasonHeader{
+    font-size: 25px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+
+}
+
+.reasonBody {
+    font-size: 15px;
+    width: 90%;
+    /* text-align: justify; */
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+}
+
+/* User Interface */
+
+#UIContainer {
+    margin-bottom: 3cm;
+
+}
+
+#UICarousel {
+    margin-top: 2cm;
+    background-color: #F5FAFD;
+    border-radius: 1cm;
+    height: 18cm;
+}
+
+#UICarousel li {
+    background-color : rgb(172, 164, 164);
+}
+
+#UICarousel li.active {
+    background-color : #0C2340
+}
+
+.carousel-inner .row{
+    margin-left: 3.3cm;
+}
+
+.imgDesc {
+    font-size: 18px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    font-weight: 800;
+    margin-top: -1cm
+}
 
 /* Issue */
 
