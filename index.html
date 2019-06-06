@@ -64,7 +64,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">OUR CLIENT</a>
+                        <a class="nav-link" href="#clientSeparator">OUR CLIENT</a>
                     </li>
                     <li class="nav-item active">
                         <div class="btn-group dropdown">
@@ -73,13 +73,13 @@
                                 HOW IT WORKS
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Why this app?</a>
+                                <a class="dropdown-item" href="#whyThisAppSeparator">Why this app?</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">User Interfaces</a>
+                                <a class="dropdown-item" href="#UISeparator">Interface Design</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#endUserHR">Targeted Users</a>
+                                <a class="dropdown-item" href="#endUsersSeparator">Targeted Users</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Design Methodology</a>
+                                <a class="dropdown-item" href="#designMethodSeparator">Design Methodology</a>
                             </div>
                         </div>
                     </li>
@@ -90,18 +90,18 @@
                                 ABOUT NUCLEUS
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Mission</a>
+                                <a class="dropdown-item" href="#missionVisionSeparator">Mission</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Vision</a>
+                                <a class="dropdown-item" href="#missionDesc">Vision</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Members</a>
+                                <a class="dropdown-item" href="#meetOurTeamSeparator">Members</a>
                             </div>
                         </div>
                     </li>
                 </ul>
                 <ul  class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a id="contactNav" class="btn btn-outline-dark" style="cursor: pointer">CONTACT US</a>
+                        <a id="contactNav" class="btn btn-outline-dark" style="cursor: pointer" href="#contactUsSeparator">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -119,7 +119,7 @@
                         <h1 class="text-white">UOW Sculptures App</h1>
                         <div id="introductionDesc">
                             <p>A multi-functional cross-platform mobile application for users to browse information
-                                about UOW Art Collection outdoor sculptures.</p>
+                                about University of Wollongong Art Collection (UOWAC) outdoor sculptures.</p>
                             <ul class=" list-unstyled">
                                 <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Open street
                                     map</li>
@@ -129,7 +129,7 @@
                                     engagement</li>
                             </ul>
                         </div>
-                        <button class="btn btn-outline-light roboto" href="#">Start Exploring</a>
+                        <a class="btn btn-outline-light roboto" href="#clientSeparator">Start Exploring</a>
                     </div>
 
                 </div>
@@ -144,73 +144,51 @@
 
     </div>
 
+    <hr id="clientSeparator" style="margin-top:3cm; visibility: hidden" />
     <!-- Client -->
 
     <div id="clientContainer" class="container">
+        <div class="clientTitle text-center">Our Client</div>
         <div class="row">
-            <div class="col-5 text-center">
-                <div class="clientHeader">Our Client</div>
-                <img src="Images/ArtCollection_Logo.PNG" width="370" height="370">
+            <div class="col-6 text-center">
+                <img src="Images/ArtCollection_Logo.PNG" width="450" height="450">
             </div>
             <div class="col">
                 <div class="clientHeader">University of Wollongong Art Collection</div>
-                <div style="text-align: justify; font-size: 19px; line-height: 1cm" class="roboto">The University of Wollongong Art Collection (UOWAC) has been a part of the University of Wollongong since the 1960s. Today the collection comprises over 5000 individual works ranging from paintings, prints, ceramics, textiles and a number of outdoor sculptures. Art works are displayed across several campus locations including UOW's main Wollongong campus, Innovation Campus, Nowra, Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business School. UOWAC aims to collect and care for works of art with significance to the University and wider Illawarra region. Art is an integral part of campus life for students, staff, the local community and wider art lovers who want to enjoy the collection.</div>
-                
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-5 text-center">
-                <div class="clientHeader">
-                    <div class="container" >
-                        <div class="row" style="margin-top: 20px">
-                            <div class="col">
-                                Key contact
+                <div style="text-align: justify; font-size: 16px; line-height: 0.7cm; font-style: italic" class="charlie">The University of Wollongong Art Collection (UOWAC) has been a part of the University of Wollongong since the 1960s. Today the collection comprises over 5000 individual works ranging from paintings, prints, ceramics, textiles and a number of outdoor sculptures. Art works are displayed across several campus locations including UOW's main Wollongong campus, Innovation Campus, Nowra, Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business School. UOWAC aims to collect and care for works of art with significance to the University and wider Illawarra region. Art is an integral part of campus life for students, staff, the local community and wider art lovers who want to enjoy the collection.</div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-3" id="keyContacts">
+                        Key Contacts:
+                    </div>
+                    <div class="col directClient">
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="fas fa-user-tie"></i>
                             </div>
-
+                            <div class="col">
+                                <div class="directClientNameRole">Karen Cass - The Collection Manager</div>
+                                <div class="directClientEmail">karen@uowmail.edu.au</div>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="col ">
-                                    <!-- On Project -->
+                            <div class="col-1 text-center">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="col">
+                                <div class="directClientNameRole">Janise Miechel – The Collection Coordinator</div>
+                                <div class="directClientEmail">janise@uowmail.edu.au</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div id="directClient" class="container">
-                    <div class="row" style="margin-bottom: 10px; margin-top: 20px;">
-                        <div class="col-2 text-center">
-                            <i class="fas fa-user-tie fa-4x"></i>
-                        </div>
-                        <div class="col">
-                            <h3>Karen Cass - The Collection Manager</h3>
-                            <h5>karen@uowmail.edu.au</h5>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="row">
-                        <div class="col-2 text-center">
-                            <i class="fas fa-user-tie fa-4x"></i>
-                        </div>
-                        <div class="col">
-                            <h3>Janise Miechel – The Collection Coordinator​</h3>
-                            <h5>janise@uowmail.edu.au</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+        
     </div>
 
      <!-- Issue -->
      <div id="issuesContainer" class="container dosis">
-         <hr>
+         <hr id="whyThisAppSeparator">
         <div id="issuesHeader">
             <div class="container">
                 <div class="row">
@@ -460,7 +438,7 @@
 
     <!-- User Interfaces -->
     <div id="UIContainer" class="container">
-        <hr style="padding-top: 3cm"  />
+        <hr id="UISeparator" style="padding-top: 3cm"  />
         <div class="HeaderTitle dosis text-center">
             Let's take a look at our app
         </div>
@@ -554,7 +532,7 @@
     <div id="endUsersContainer" class="dosis">
         <div class="container">
             
-            <hr id="endUserHR" style="padding-top: 3cm" />
+            <hr id="endUsersSeparator" style="padding-top: 3cm" />
 
 
             <div id="endUsersHeader" class="Header">
@@ -588,6 +566,7 @@
                                         </div>
                                         <div class="col">
                                             <h3>UOW Community</h3>
+                                            <h5>UOW students and staff</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -603,6 +582,7 @@
                                         </div>
                                         <div class="col">
                                             <h3>UOW Art Collection staff</h3>
+                                            <h5>Administrators</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -618,6 +598,7 @@
                                         </div>
                                         <div class="col">
                                             <h3>Guests/Visitors</h3>
+                                            <h5>Domestic and International researchers</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -632,24 +613,130 @@
     </div>
 
     <!-- Design Methodology -->
-    <div class="container dosis">
-        <hr style="padding-top: 2cm">
-        <div class="text-center HeaderTitle">
-            Design Methodology
+    <div class="container charlie">
+        <hr id="designMethodSeparator" style="padding-top: 2cm">
+        <div class="text-center HeaderTitle dosis">
+            Design Methodology: <span id="kanbanTitle">Kanban</span>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: 2.5cm">
             <div class="col">
-                <!-- <div class="card">
-                    <div class="card-header">
-                        Kanban
+                <div id="whatIsKanbanContainer">
+                    <div class="kanbanHeader charlie">
+                        What is Kanban ?
                     </div>
-                    <div class="card-body">
-                        AAA
+                    <div id="whatIsKanbanContent"class="charlie">
+                        Kanban is a popular methodology used for the implementation of agile software development.<br> This framework can help increase the team’s productivity by focusing on real-time communication, continual delivery and not overburdening the development team. 
                     </div>
-                </div> -->
+                </div>
+
+                <div id="kanbanPrinciplesContainer">
+                    <div class="kanbanHeader charlie">
+                        Kanban Basic Principles
+                    </div>
+                    <div id="kanbanPrinciplesContent">
+                        <div class="row">
+                            <div class="col-2 text-right">
+                                <i class="far fa-dot-circle"></i>
+                            </div>
+                            <div class="col kanbanPrinciple">
+                                Visualize the workflow
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 text-right">
+                                <i class="far fa-dot-circle"></i>
+                            </div>
+                            <div class="col kanbanPrinciple">
+                                Limit work in progress
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 text-right">
+                                <i class="far fa-dot-circle"></i>
+                            </div>
+                            <div class="col kanbanPrinciple">
+                                Continuous enhancement 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 text-right">
+                                <i class="far fa-dot-circle"></i>
+                            </div>
+                            <div class="col kanbanPrinciple">
+                                Focus on flow 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col">
+                <div id="kanbanBenefits">
+                    <div class="kanbanHeader charlie" style="margin-left: 3cm; margin-bottom: 60px;">
+                        Kanban Benefits
+                    </div>
 
+                    <div id="kanbanBenefitsContent" class="container">
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Flexible planning
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Shorter time cycles
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Fewer bottlenecks
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Quick responsive to change
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Visual metrics
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Continuous delivery 
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4 text-right">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            <div class="col kanbanBenefit">
+                                Higher productivity
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -659,23 +746,29 @@
 
     <!-- Meet Our Team -->
     <div id="meetOurTeamContainer" class="container dosis">
-        <hr style="padding-top: 3cm" />
+        <hr id="missionVisionSeparator" style="padding-top: 3cm" />
+
+        <div class="text-center aboutNucleus charlie" style="font-size: 50px; font-weight:800; margin-bottom: 2cm">
+            ABOUT NUCLEUS
+        </div>
 
         <div class="text-center aboutNucleus">
             <img src="Images/Mission.JPG" />
             <div class="HeaderTitle">
                 Our Mission
             </div>
-            <div class="roboto" style="width: 80%; margin-left: 10%">In this project, our mission is to create an easy-to-use interactive system, with fulfilling functionalities to assist visitors who are interested in the outdoor sculptures from the UOW Art Collection.</div>
+            <div id="missionDesc" class="roboto" style="width: 80%; margin-left: 10%">In this project, our mission is to create an easy-to-use interactive system, with fulfilling functionalities to assist visitors who are interested in the outdoor sculptures from the UOW Art Collection.</div>
         </div>
 
         <div class="text-center aboutNucleus">
             <img src="Images/Vision.JPG" />
             <div class="HeaderTitle">
-                Vision
+                Our Vision
             </div>
             <div class="roboto" style="width: 80%; margin-left: 10%">Our vision is to deliver the most beneficial application to our customer, enabling the UOW Art Collection to achieve their goals of attracting more visitors and making art an integral part of campus life.</div>
         </div>
+
+        <hr id="meetOurTeamSeparator" style="margin-top: 3cm; margin-bottom: 2cm">
 
         <div class="text-center">
             <div class="HeaderTitle">
@@ -687,13 +780,13 @@
         <div id="meetOurTeamBody" class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card" style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/ThaoPham.jpg" width="120" height="120">
+                                        <img src="Images/Members/ThaoPham.jpg" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -713,13 +806,13 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card"  style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/LongHung.jpg" width="120" height="120">
+                                        <img src="Images/Members/LongHung.jpg" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -739,13 +832,13 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card"  style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/HieuChu.jpg" width="120" height="120">
+                                        <img src="Images/Members/HieuChu.jpg" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -770,13 +863,13 @@
             <!-- Second Row -->
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card"  style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/HoaiNam.jpg" width="120" height="120">
+                                        <img src="Images/Members/HoaiNam.jpg" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -796,13 +889,13 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card"  style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/NamJose.PNG" width="120" height="120">
+                                        <img src="Images/Members/NamJose.PNG" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -822,13 +915,13 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card" style="width: 87%">
                         <div class="card-body">
 
                             <div class="row">
-                                <div class="col-5 text-center">
+                                <div class="col-4 text-center">
                                     <div>
-                                        <img src="Images/Members/MinhNguyen.PNG" width="120" height="120">
+                                        <img src="Images/Members/MinhNguyen.PNG" width="80" height="80">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -853,8 +946,8 @@
         </div>
     </div>
 
-    <div class="container text-center">
-        <hr>
+    <div id="contactUsContainer" class="container text-center">
+        <hr id="contactUsSeparator">
         <div>
             <img src="Images/contactUs.JPG" >
             <div id="contactTitle" class="dosis">We are here to help !</div>
@@ -869,6 +962,22 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div id="copyRightContainer">
+        <div class="container" style="padding-top: 1cm">
+            <div style=" width: 300px; float: left;">
+                <div class="row">
+                    <div class="col-2" style="padding-left: 8">
+                        <img id="copyRightLogo" src="Images/nucleus_logo.JPG" />
+                    </div>
+                    <div class="col">
+                        <span id="copyRightBrandName">NUCLEUS</span>
+                    </div>
+                </div>
+            </div>
+            <div id="copyRightContent">Copyright &copy; 2019 Nucleus</div>
         </div>
     </div>
 

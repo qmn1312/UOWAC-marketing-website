@@ -105,7 +105,7 @@
     height: 15cm;
     background-color: #0C2340;
     /* #c03030; */
-    /* background-image: linear-gradient(to bottom right, #375fb4 , #b83f63); */
+    background-image: linear-gradient(to bottom right, #375fb4 , #b83f63);
 }
 
 #introduction {
@@ -141,23 +141,46 @@
 /* Client */
 
 #clientContainer {
-    margin-top: 6cm;
+    margin-top: 3cm;
 }
 
-.clientHeader{
+.clientTitle{
     font-size: 40px;
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
     color: #375fb4;
-    margin-bottom: 1.3cm;
+    margin-bottom: 2cm;
 }
 
-#directClient i {
-    color: #375fb4
-}
-
-#directClient h3 {
-    margin-bottom : 15px;
+.clientHeader{
+    font-size: 27px;
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    color: #375fb4;
+    margin-bottom: 0.5cm;
+}
+
+#keyContacts {
+    color: #375fb4;
+    font-size: 18px;
+}
+
+.directClient i {
+    color: #375fb4;
+}
+
+.directClient .row {
+    margin-bottom: 10px;
+}
+
+.directClientNameRole {
+    font-weight: 700;
+}
+
+.directClientEmail {
+    cursor: pointer;
+}
+
+.directClientEmail:hover {
+    text-decoration: underline;
 }
 
 /* Why this app */
@@ -290,6 +313,9 @@
 
 #issueDetails h6 {
     color: rgb(173, 168, 168);
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 
@@ -321,20 +347,88 @@
 }
 
 #endUsersDetails .col {
-    padding-top: 0.5cm;
+    padding-top: 0cm;
 }
 
 #endUsersDetails i {
     color: #375fb4;
 }
 
+#endUsersDetails h5 {
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(173, 168, 168);
+}
+
+/* Design Methodology */
+
+.charlie {
+    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+#kanbanTitle {
+    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    color: #0052CC;
+}
+
+.kanbanHeader {
+    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 650;
+    color: #0052CC;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#whatIsKanbanContent {
+    font-style: oblique;
+    font-size: 18px;
+    width: 85%;
+    margin-left: 5%;
+    line-height: 1cm;
+}
+
+#kanbanPrinciplesContainer{
+    margin-top: 2cm;
+}
+
+.kanbanPrinciple {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+#kanbanPrinciplesContent i {
+    font-size: 25px;
+    color: #0052CC;
+}
+
+#kanbanPrinciplesContent .row {
+    margin-bottom: 1cm;
+}
+
+#kanbanBenefitsContent i {
+    font-size: 28px;
+    color: #28a745!important;
+}
+
+#kanbanBenefitsContent .row {
+    margin-bottom: 1.5cm;
+}
+
+.kanbanBenefit {
+    font-size: 25px;
+    line-height: 20px;
+}
+
 /* Mission Vision */
 .aboutNucleus {
-    margin-bottom: 3cm;
+    margin-bottom: 2cm;
 }
 
 .aboutNucleus .HeaderTitle {
-    margin-bottom: 2cm;
+    margin-bottom: 0.5cm;
+    font-size: 40px;
 }
 
 .aboutNucleus .roboto {
@@ -353,6 +447,12 @@
 
 #meetOurTeamBody .card {
     border-radius: 0.5cm;
+    margin-left: 5%;
+    height: 5cm;
+}
+
+#meetOurTeamBody .row {
+    margin-bottom: 0.5cm;
 }
 
 #meetOurTeamBody img {
@@ -362,23 +462,24 @@
 
 .avatarName {
     font-weight: 900;
-    padding-top: 20px;
+    padding-top: 5px;
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 
 .memberRole {
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .memberMajor {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .memberUni {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .memberInfo {
@@ -394,9 +495,8 @@
 
 /* Contact Us */
 
-#contactContainer {
-    padding: 3cm;
-    text-align: center;
+#contactUsContainer {
+    margin-bottom: 1.5cm;
 }
 
 #contactTitle {
@@ -420,4 +520,34 @@
 
 #contactEmailLink:hover {
     text-decoration: underline;
+}
+
+/* Copyright */
+#copyRightContainer {
+    height: 3cm;
+    background-image: linear-gradient(to bottom right, #375fb4 , #b83f63);
+}
+
+#copyRightContainer .container {
+    height: 100%;
+}
+
+#copyRightBrandName {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
+#copyRightLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 1cm;
+    border: whitesmoke solid 2px;
+}
+
+#copyRightContent {
+    margin-top: 0.3cm;
+    color: white;
+    float: right;
 }
