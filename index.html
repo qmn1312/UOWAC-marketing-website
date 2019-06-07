@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>UOW Sculptures App</title>
 
-<head>
-
-    <title>Homepage</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700"
+      rel="stylesheet"
+    />
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 
     <!-- Jquery -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Page CSS -->
     <link rel="stylesheet" href="Styles/index.css" />
@@ -34,957 +50,1136 @@
     <script src="Scripts/index.js"></script>
 
     <!-- AOS Lib -->
-    <link href="Scripts/aos/aos.css" rel="stylesheet">
+    <link href="Scripts/aos/aos.css" rel="stylesheet" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- Project Group -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: white">
-        <div id="navBar" class="container">
-
-
-            <a class="navbar-brand" href="#brandingPhilosophy">
-                <div class="container-fluid" style="padding: 0; width: 100%">
-                    <div class="row">
-                        <div class="col-3" style="padding-left: 8">
-                            <img id="nucleusLogo" src="Images/nucleus_logo.JPG" />
-                        </div>
-                        <div class="col">
-                            <span id="brandName">NUCLEUS</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#clientSeparator">OUR CLIENT</a>
-                    </li>
-                    <li class="nav-item active">
-                        <div class="btn-group dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false" style="cursor: pointer">
-                                HOW IT WORKS
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#whyThisAppSeparator">Why this app?</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#UISeparator">Interface Design</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#endUsersSeparator">Targeted Users</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#designMethodSeparator">Design Methodology</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="btn-group dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false" style="cursor: pointer">
-                                ABOUT NUCLEUS
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#missionVisionSeparator">Mission</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#missionDesc">Vision</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#meetOurTeamSeparator">Members</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <ul  class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a id="contactNav" class="btn btn-outline-dark" style="cursor: pointer" href="#contactUsSeparator">CONTACT US</a>
-                    </li>
-                </ul>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light shadowNavBar"
+      style="background-color: white"
+    >
+      <div id="navBar" class="container">
+        <a class="navbar-brand" href="#brandingPhilosophy">
+          <div class="container-fluid" style="padding: 0; width: 100%">
+            <div class="row">
+              <div class="col-3" style="padding-left: 8">
+                <img id="nucleusLogo" src="Images/nucleus_logo.JPG" />
+              </div>
+              <div class="col">
+                <span id="brandName">NUCLEUS</span>
+              </div>
             </div>
-
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#clientSeparator">OUR CLIENT</a>
+            </li>
+            <li class="nav-item active">
+              <div class="btn-group dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style="cursor: pointer"
+                >
+                  HOW IT WORKS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#whyThisAppSeparator"
+                    >Why this app?</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#UISeparator"
+                    >Interface Design</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#endUsersSeparator"
+                    >Targeted Users</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#designMethodSeparator"
+                    >Design Methodology</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style="cursor: pointer"
+                >
+                  ABOUT NUCLEUS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#missionVisionSeparator"
+                    >Mission</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#missionDesc">Vision</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#meetOurTeamSeparator"
+                    >Members</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a
+                id="contactNav"
+                class="btn btn-outline-dark"
+                style="cursor: pointer"
+                href="#contactUsSeparator"
+                >CONTACT US</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Introduction -->
     <div id="brandingPhilosophy">
-        <div id="introduction" class="container">
-            <div class="row">
-                <div class="col">
-
-                    <div id="introductionText">
-                        <h1 class="text-white">UOW Sculptures App</h1>
-                        <div id="introductionDesc">
-                            <p>A multi-functional cross-platform mobile application for users to browse information
-                                about University of Wollongong Art Collection (UOWAC) outdoor sculptures.</p>
-                            <ul class=" list-unstyled">
-                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Open street
-                                    map</li>
-                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Real-time
-                                    push notifications</li>
-                                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Social
-                                    engagement</li>
-                            </ul>
-                        </div>
-                        <a class="btn btn-outline-light roboto" href="#clientSeparator">Start Exploring</a>
-                    </div>
-
-                </div>
-                <div class="col">
-                    <div id="landingPage">
-                        <img id="landingPageImage" src="Images/UI/Iphone X - Splash Screen.png" width="450" height="700" />
-                    </div>
-                </div>
+      <div id="introduction" class="container">
+        <div class="row">
+          <div class="col">
+            <div id="introductionText">
+              <h1 class="text-white">UOW Sculptures App</h1>
+              <div id="introductionDesc">
+                <p>
+                  A multi-functional cross-platform mobile application for users
+                  to browse information about University of Wollongong Art
+                  Collection (UOWAC) outdoor sculptures.
+                </p>
+                <ul class=" list-unstyled">
+                  <li class="py-2">
+                    <i class="fa fa-check-circle pr-4" aria-hidden="true"></i>
+                    Integrated map and navigation
+                  </li>
+                  <li class="py-2">
+                    <i class="fa fa-check-circle pr-4" aria-hidden="true"></i>
+                    Real-time push notifications
+                  </li>
+                  <li class="py-2">
+                    <i class="fa fa-check-circle pr-4" aria-hidden="true"></i>
+                    Social engagement
+                  </li>
+                </ul>
+              </div>
+              <a class="btn btn-outline-light roboto" href="#clientSeparator"
+                >Start Exploring</a
+              >
             </div>
-
+          </div>
+          <div class="col">
+            <div id="landingPage">
+              <img
+                id="landingPageImage"
+                src="Images/UI/Iphone X - Splash Screen.png"
+                width="450"
+                height="700"
+              />
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
 
     <hr id="clientSeparator" style="margin-top:3cm; visibility: hidden" />
     <!-- Client -->
 
     <div id="clientContainer" class="container">
-        <div class="clientTitle text-center">Our Client</div>
-        <div class="row">
-            <div class="col-6 text-center">
-                <img src="Images/ArtCollection_Logo.PNG" width="450" height="450">
+      <div class="clientTitle text-center">Our Client</div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <img src="Images/ArtCollection_Logo.PNG" width="450" height="450" />
+        </div>
+        <div class="col">
+          <div class="clientHeader">
+            University of Wollongong Art Collection
+          </div>
+          <div
+            style="text-align: justify; font-size: 16px; line-height: 0.7cm; font-style: italic"
+            class="charlie"
+          >
+            The University of Wollongong Art Collection (UOWAC) has been a part
+            of the University of Wollongong since the 1960s. Today the
+            collection comprises over 5000 individual works ranging from
+            paintings, prints, ceramics, textiles and a number of outdoor
+            sculptures. Art works are displayed across several campus locations
+            including UOW's main Wollongong campus, Innovation Campus, Nowra,
+            Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business
+            School. UOWAC aims to collect and care for works of art with
+            significance to the University and wider Illawarra region. Art is an
+            integral part of campus life for students, staff, the local
+            community and wider art lovers who want to enjoy the collection.
+          </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-3" id="keyContacts">
+              Key Contacts:
             </div>
+            <div class="col directClient">
+              <div class="row">
+                <div class="col-1 text-center">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="col">
+                  <div class="directClientNameRole">
+                    Karen Cass - The Collection Manager
+                  </div>
+                  <div class="directClientEmail">kcass@uowmail.edu.au</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 text-center">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="col">
+                  <div class="directClientNameRole">
+                    Janise Miechel – The Collection Coordinator
+                  </div>
+                  <div class="directClientEmail">janise@uowmail.edu.au</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Issue -->
+    <div id="issuesContainer" class="container dosis">
+      <hr id="whyThisAppSeparator" />
+      <div id="issuesHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 text-right">
+              <i class="fas fa-exclamation-triangle fa-4x"></i>
+            </div>
+            <div class="col" id="issuesHeaderTitle">
+              <div>
+                Current Problems
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="issuesBody">
+        <div class="container">
+          <div class="row">
             <div class="col">
-                <div class="clientHeader">University of Wollongong Art Collection</div>
-                <div style="text-align: justify; font-size: 16px; line-height: 0.7cm; font-style: italic" class="charlie">The University of Wollongong Art Collection (UOWAC) has been a part of the University of Wollongong since the 1960s. Today the collection comprises over 5000 individual works ranging from paintings, prints, ceramics, textiles and a number of outdoor sculptures. Art works are displayed across several campus locations including UOW's main Wollongong campus, Innovation Campus, Nowra, Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business School. UOWAC aims to collect and care for works of art with significance to the University and wider Illawarra region. Art is an integral part of campus life for students, staff, the local community and wider art lovers who want to enjoy the collection.</div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-3" id="keyContacts">
-                        Key Contacts:
+              <div class="card">
+                <div class="card-header issueName">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3 text-right">
+                        <i class="fas fa-exclamation-circle fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        Issues with Google My Maps
+                      </div>
                     </div>
-                    <div class="col directClient">
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="fas fa-user-tie"></i>
-                            </div>
-                            <div class="col">
-                                <div class="directClientNameRole">Karen Cass - The Collection Manager</div>
-                                <div class="directClientEmail">karen@uowmail.edu.au</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="fas fa-user-tie"></i>
-                            </div>
-                            <div class="col">
-                                <div class="directClientNameRole">Janise Miechel – The Collection Coordinator</div>
-                                <div class="directClientEmail">janise@uowmail.edu.au</div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="card-body" id="googleMyMap">
+                  <img
+                    src="Images/Google_My_Maps.PNG"
+                    width="300"
+                    height="500"
+                  />
+                </div>
+              </div>
             </div>
+            <div class="col-1">
+              &nbsp;
+            </div>
+
+            <div class="col" id="issueDetails">
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-database fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        <h4>Incomplete data</h4>
+                        <h6>
+                          Many sculptures’ information is still missing
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        <h4>Poor mobile compatibility</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-align-right fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        <h4>
+                          Limited forms of information associated with each art
+                          piece
+                        </h4>
+                        <h6>
+                          Only display a very short textual description.
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-map-marked-alt fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        <h4>No tracking of visitors’ engagement​</h4>
+                        <h6>
+                          Lack of understanding of visitor's behaviors.
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-user-plus fa-2x"></i>
+                      </div>
+                      <div class="col">
+                        <h4>
+                          No interface for adding new art pieces information​
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
+      </div>
     </div>
 
-     <!-- Issue -->
-     <div id="issuesContainer" class="container dosis">
-         <hr id="whyThisAppSeparator">
-        <div id="issuesHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 text-right">
-                        <i class="fas fa-exclamation-triangle fa-4x"></i>
-                    </div>
-                    <div class="col" id="issuesHeaderTitle">
-                        <div>
-                            Current Problems
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Why -->
+    <div class="container" style="margin-bottom: 3cm">
+      <hr style="margin-top: 3cm" />
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-4">
+          <div style="margin-left: -30px">
+            <img
+              src="Images/UI/Iphone X - Intro Screen.png"
+              width="390"
+              height="600"
+            />
+          </div>
         </div>
-
-        <div id="issuesBody">
+        <div class="col" style="padding-left: 0px">
+          <div id="whyThisAppContent">
+            <div id="whyThisAppHeader" class="dosis">Why this app?</div>
             <div class="container">
-                <div class="row">
+              <div class="row">
+                <div class="col">
+                  <div class="row reasonIconHeader text-info">
+                    <div class="col-3">
+                      <i class="far fa-check-circle fa-3x"></i>
+                    </div>
                     <div class="col">
-
-                        <div class="card">
-                            <div class="card-header issueName">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3 text-right">
-                                            <i class="fas fa-exclamation-circle fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            Issues with Google My Maps
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body" id="googleMyMap">
-                                <img src="Images/Google_My_Maps.PNG" width="300" height="500">
-                            </div>
-                        </div>
+                      <div class="reasonHeader">Easy to use<br />&nbsp;</div>
                     </div>
-                    <div class="col-1">
-                        &nbsp;
+                  </div>
+                  <div class="row">
+                    <div class="col-3">&nbsp;</div>
+                    <div class="col">
+                      <div class="reasonBody text-muted">
+                        User-friendly interface with integrated map and
+                        navigation to help users enjoy the artworks with no
+                        difficulties.
+                      </div>
                     </div>
-
-                    <div class="col" id="issueDetails">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <i class="fas fa-database fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h4>Incomplete data</h4>
-                                            <h6>
-                                                Many sculptures’ information is still missing
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <i class="fas fa-mobile-alt fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h4>Poor mobile compatibility</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <i class="fas fa-align-right fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h4>Limited forms of information associated with each art piece</h4>
-                                            <h6>
-                                                Only display a very short textual description.
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <i class="fas fa-map-marked-alt fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h4>No tracking of visitors’ engagement​</h4>
-                                            <h6>
-                                                Lack of understanding of visitor's behaviors.
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <i class="fas fa-user-plus fa-2x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h4>No interface for adding new art pieces information​</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                  </div>
                 </div>
+                <div class="col">
+                  <div class="row reasonIconHeader ">
+                    <div class="col-3">
+                      <i class="fas fa-bell fa-3x"></i>
+                    </div>
+                    <div class="col">
+                      <div class="reasonHeader">
+                        Real-time push notification
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">&nbsp;</div>
+                    <div class="col">
+                      <div class="reasonBody text-muted">
+                        To improve the user experience, visitors will receive
+                        real-time push notifications when they visit outdoor
+                        sculptures.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Row -->
+              <br /><br />
+              <div class="row">
+                <div class="col">
+                  <div class="row reasonIconHeader text-danger">
+                    <div class="col-3">
+                      <i class="fas fa-heart fa-3x"></i>
+                    </div>
+                    <div class="col">
+                      <div class="reasonHeader">
+                        Social engagement
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">&nbsp;</div>
+                    <div class="col">
+                      <div class="reasonBody text-muted">
+                        Users can easily sign in via social login (Google and
+                        Facebook), join others in enjoying outdoor sculptures
+                        with likes and comments.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row reasonIconHeader text-success">
+                    <div class="col-3">
+                      <i class="fab fa-android fa-3x"></i>
+                    </div>
+                    <div class="col">
+                      <div class="reasonHeader">
+                        Multi-platform support
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">&nbsp;</div>
+                    <div class="col">
+                      <div class="reasonBody text-muted">
+                        The application is built for both iOS and Android to
+                        support as many users as possible.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-
-     <!-- Why -->
-     <div class="container" style="margin-bottom: 3cm">
-        <hr style="margin-top: 3cm">
-        <br> <br>
-        <div class="row">
-            <div class="col-4" >
-                <div style="margin-left: -30px">
-                    <img src="Images/UI/Iphone X - Intro Screen.png"  width="390" height="600">
-                </div>
-            </div>
-            <div class="col" style="padding-left: 0px">
-                <div id="whyThisAppContent">
-                    <div id="whyThisAppHeader" class="dosis">Why this app?</div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="row reasonIconHeader text-info">
-                                    <div class="col-3">
-                                        <i class="far fa-check-circle fa-3x"></i>
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonHeader">
-                                            Easy to use<br>&nbsp;
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">&nbsp;
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonBody text-muted">
-                                            User-friendly and properly designed interface for users to visit and enjoy the artworks with no difficulties.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="row reasonIconHeader ">
-                                    <div class="col-3">
-                                            <i class="fas fa-bell fa-3x"></i>
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonHeader">
-                                                Real-time push notification
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">&nbsp;
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonBody text-muted">
-                                                Visitors can be navigated easily to each sculpture using the integrated open street map with real-time notifications
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Second Row -->
-                        <br><br>
-                        <div class="row">
-                            <div class="col">
-                                <div class="row reasonIconHeader text-danger">
-                                    <div class="col-3">
-                                            <i class="fas fa-heart fa-3x"></i>
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonHeader">
-                                            Social engagement
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">&nbsp;
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonBody text-muted">
-                                            User-friendly and properly designed interface for users to visit and enjoy the artworks with no difficulties.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="row reasonIconHeader text-success">
-                                    <div class="col-3">
-                                            <i class="fab fa-android fa-3x"></i>
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonHeader">
-                                                Multi-platform support
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">&nbsp;
-                                    </div>
-                                    <div class="col">
-                                        <div class="reasonBody text-muted">
-                                                Visitors can be navigated easily to each sculpture using the integrated open street map with real-time notifications
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                
-            </div>
-        </div>
+      </div>
     </div>
 
     <!-- User Interfaces -->
     <div id="UIContainer" class="container">
-        <hr id="UISeparator" style="padding-top: 3cm"  />
-        <div class="HeaderTitle dosis text-center">
-            Let's take a look at our app
-        </div>
-        <div id="UICarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#UICarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#UICarousel" data-slide-to="1"></li>
-                <li data-target="#UICarousel" data-slide-to="2"></li>
-                <li data-target="#UICarousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-5 text-right" >
-                            <img  src="Images/UI/Iphone X - 2.png" alt="First slide" width="390" height="600"><br>
-                            <div class="imgDesc text-center">
-                                Device Screen
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <img src="Images/UI/Iphone X - Splash Screen.png" alt="Second slide" width="390" height="600">
-                            <div class="imgDesc text-center">
-                                Splash Screen
-                            </div>
-                        </div>
-                    </div>
+      <hr id="UISeparator" style="padding-top: 3cm" />
+      <div class="HeaderTitle dosis text-center">
+        Let's take a look at our app
+      </div>
+      <div id="UICarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#UICarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#UICarousel" data-slide-to="1"></li>
+          <li data-target="#UICarousel" data-slide-to="2"></li>
+          <li data-target="#UICarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-5 text-right">
+                <img
+                  src="Images/UI/Iphone X - 2.png"
+                  alt="First slide"
+                  width="390"
+                  height="600"
+                /><br />
+                <div class="imgDesc text-center">
+                  Device Screen
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-5 text-right" >
-                            <img  src="Images/UI/Iphone X - Intro Screen.png" alt="First slide" width="390" height="600"><br>
-                            <div class="imgDesc text-center">
-                               Introduction
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <img src="Images/UI/Iphone X - Home Screen.png" alt="Second slide" width="390" height="600">
-                            <div class="imgDesc text-center">
-                                Homepage
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-5">
+                <img
+                  src="Images/UI/Iphone X - Splash Screen.png"
+                  alt="Second slide"
+                  width="390"
+                  height="600"
+                />
+                <div class="imgDesc text-center">
+                  Splash Screen
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-5 text-right" >
-                            <img  src="Images/UI/Iphone X - List Screen.png" alt="First slide" width="390" height="600"><br>
-                            <div class="imgDesc text-center">
-                                Sculpture List
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <img src="Images/UI/Iphone X - Detail Screen.png" alt="Second slide" width="390" height="600">
-                            <div class="imgDesc text-center">
-                                Sculpture Detail
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-5 text-right" >
-                            <img  src="Images/UI/Iphone X - Profile Screen.png" alt="First slide" width="390" height="600"><br>
-                            <div class="imgDesc text-center">
-                                User Profile
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <img src="Images/UI/Iphone X - Map Screen.png" alt="Second slide" width="390" height="600">
-                            <div class="imgDesc text-center">
-                                Street Map
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <a class="carousel-control-prev" href="#UICarousel" role="button" data-slide="prev">
-                    <i class="fas fa-chevron-circle-left fa-2x" style="color: #0C2340"></i>
-                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span> -->
-            </a>
-            <a class="carousel-control-next" href="#UICarousel" role="button" data-slide="next">
-                    <i class="fas fa-chevron-circle-right fa-2x" style="color: #0C2340;"></i>
-                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span> -->
-            </a>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-5 text-right">
+                <img
+                  src="Images/UI/Iphone X - Intro Screen.png"
+                  alt="First slide"
+                  width="390"
+                  height="600"
+                /><br />
+                <div class="imgDesc text-center">
+                  Introduction
+                </div>
+              </div>
+              <div class="col-5">
+                <img
+                  src="Images/UI/Iphone X - Home Screen.png"
+                  alt="Second slide"
+                  width="390"
+                  height="600"
+                />
+                <div class="imgDesc text-center">
+                  Home
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-5 text-right">
+                <img
+                  src="Images/UI/Iphone X - List Screen.png"
+                  alt="First slide"
+                  width="390"
+                  height="600"
+                /><br />
+                <div class="imgDesc text-center">
+                  Sculpture Collection
+                </div>
+              </div>
+              <div class="col-5">
+                <img
+                  src="Images/UI/Iphone X - Detail Screen.png"
+                  alt="Second slide"
+                  width="390"
+                  height="600"
+                />
+                <div class="imgDesc text-center">
+                  Sculpture Detail
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-5">
+                <img
+                  src="Images/UI/Iphone X - Map Screen.png"
+                  alt="Second slide"
+                  width="390"
+                  height="600"
+                />
+                <div class="imgDesc text-center">
+                  Integrated Map
+                </div>
+              </div>
+              <div class="col-5 text-right">
+                <img
+                  src="Images/UI/Iphone X - Profile Screen.png"
+                  alt="First slide"
+                  width="390"
+                  height="600"
+                /><br />
+                <div class="imgDesc text-center">
+                  User Profile
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <a
+          class="carousel-control-prev"
+          href="#UICarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <i
+            class="fas fa-chevron-circle-left fa-2x"
+            style="color: #0C2340"
+          ></i>
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span> -->
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#UICarousel"
+          role="button"
+          data-slide="next"
+        >
+          <i
+            class="fas fa-chevron-circle-right fa-2x"
+            style="color: #0C2340;"
+          ></i>
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span> -->
+        </a>
+      </div>
     </div>
 
     <!-- End Users -->
     <div id="endUsersContainer" class="dosis">
-        <div class="container">
-            
-            <hr id="endUsersSeparator" style="padding-top: 3cm" />
+      <div class="container">
+        <hr id="endUsersSeparator" style="padding-top: 3cm" />
 
-
-            <div id="endUsersHeader" class="Header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-5 text-right">
-                            <i class="fas fa-users fa-4x"></i>
-                        </div>
-                        <div class="col HeaderTitle" id="endUsersHeaderTitle">
-                            <div>
-                                Targeted Users
-                            </div>
-                        </div>
-                    </div>
+        <div id="endUsersHeader" class="Header">
+          <div class="container">
+            <div class="row">
+              <div class="col-5 text-right">
+                <i class="fas fa-users fa-4x"></i>
+              </div>
+              <div class="col HeaderTitle" id="endUsersHeaderTitle">
+                <div>
+                  Target audience
                 </div>
+              </div>
             </div>
-
-            <div id="endUsersBody" class="ContentBody">
-                <div class="row">
-                    <div class="col">
-                        <img src="Images/UOW_Logo.jpg" width="450" height="450">
-                    </div>
-
-                    <div class="col" id="endUsersDetails">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>UOW Community</h3>
-                                            <h5>UOW students and staff</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>UOW Art Collection staff</h3>
-                                            <h5>Administrators</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fas fa-user-circle fa-4x"></i>
-                                        </div>
-                                        <div class="col">
-                                            <h3>Guests/Visitors</h3>
-                                            <h5>Domestic and International researchers</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+          </div>
         </div>
+
+        <div id="endUsersBody" class="ContentBody">
+          <div class="row">
+            <div class="col">
+              <img src="Images/UOW_Logo.jpg" width="450" height="450" />
+            </div>
+
+            <div class="col" id="endUsersDetails">
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                      </div>
+                      <div class="col">
+                        <h3>UOW Community</h3>
+                        <h5>UOW students and staff</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                      </div>
+                      <div class="col">
+                        <h3>UOW Art Collection staff</h3>
+                        <h5>Administrators</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                      </div>
+                      <div class="col">
+                        <h3>Guests/Visitors</h3>
+                        <h5>Domestic and International visitors</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Design Methodology -->
     <div class="container charlie">
-        <hr id="designMethodSeparator" style="padding-top: 2cm">
-        <div class="text-center HeaderTitle dosis">
-            Design Methodology: <span id="kanbanTitle">Kanban</span>
-        </div>
-        <div class="row" style="margin-top: 2.5cm">
-            <div class="col">
-                <div id="whatIsKanbanContainer">
-                    <div class="kanbanHeader charlie">
-                        What is Kanban ?
-                    </div>
-                    <div id="whatIsKanbanContent"class="charlie">
-                        Kanban is a popular methodology used for the implementation of agile software development.<br> This framework can help increase the team’s productivity by focusing on real-time communication, continual delivery and not overburdening the development team. 
-                    </div>
-                </div>
-
-                <div id="kanbanPrinciplesContainer">
-                    <div class="kanbanHeader charlie">
-                        Kanban Basic Principles
-                    </div>
-                    <div id="kanbanPrinciplesContent">
-                        <div class="row">
-                            <div class="col-2 text-right">
-                                <i class="far fa-dot-circle"></i>
-                            </div>
-                            <div class="col kanbanPrinciple">
-                                Visualize the workflow
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 text-right">
-                                <i class="far fa-dot-circle"></i>
-                            </div>
-                            <div class="col kanbanPrinciple">
-                                Limit work in progress
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 text-right">
-                                <i class="far fa-dot-circle"></i>
-                            </div>
-                            <div class="col kanbanPrinciple">
-                                Continuous enhancement 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 text-right">
-                                <i class="far fa-dot-circle"></i>
-                            </div>
-                            <div class="col kanbanPrinciple">
-                                Focus on flow 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <hr id="designMethodSeparator" style="padding-top: 2cm" />
+      <div class="text-center HeaderTitle dosis">
+        Design Methodology: <span id="kanbanTitle">Kanban</span>
+      </div>
+      <div class="row" style="margin-top: 2.5cm">
+        <div class="col">
+          <div id="whatIsKanbanContainer">
+            <div class="kanbanHeader charlie">
+              What is Kanban ?
             </div>
-            <div class="col">
-                <div id="kanbanBenefits">
-                    <div class="kanbanHeader charlie" style="margin-left: 3cm; margin-bottom: 60px;">
-                        Kanban Benefits
-                    </div>
-
-                    <div id="kanbanBenefitsContent" class="container">
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Flexible planning
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Shorter time cycles
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Fewer bottlenecks
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Quick responsive to change
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Visual metrics
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Continuous delivery 
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-4 text-right">
-                                <i class="far fa-check-circle"></i>
-                            </div>
-                            <div class="col kanbanBenefit">
-                                Higher productivity
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div id="whatIsKanbanContent" class="charlie">
+              Kanban is a popular methodology used for the implementation of
+              agile software development.<br />
+              This framework can help increase the team’s productivity by
+              focusing on real-time communication, continual delivery and not
+              overburdening the development team.
             </div>
+          </div>
+
+          <div id="kanbanPrinciplesContainer">
+            <div class="kanbanHeader charlie">
+              Kanban Basic Principles
+            </div>
+            <div id="kanbanPrinciplesContent">
+              <div class="row">
+                <div class="col-2 text-right">
+                  <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="col kanbanPrinciple">
+                  Visualize the workflow
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 text-right">
+                  <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="col kanbanPrinciple">
+                  Limit work in progress
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 text-right">
+                  <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="col kanbanPrinciple">
+                  Continuous enhancement
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 text-right">
+                  <i class="far fa-dot-circle"></i>
+                </div>
+                <div class="col kanbanPrinciple">
+                  Focus on flow
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col">
+          <div id="kanbanBenefits">
+            <div
+              class="kanbanHeader charlie"
+              style="margin-left: 3cm; margin-bottom: 60px;"
+            >
+              Kanban Benefits
+            </div>
+
+            <div id="kanbanBenefitsContent" class="container">
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Flexible planning
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Shorter time cycles
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Fewer bottlenecks
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Quick responsive to change
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Visual metrics
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Continuous delivery
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-4 text-right">
+                  <i class="far fa-check-circle"></i>
+                </div>
+                <div class="col kanbanBenefit">
+                  Higher productivity
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-   
-   <!-- About Nucleus -->
+    <!-- About Nucleus -->
 
     <!-- Meet Our Team -->
     <div id="meetOurTeamContainer" class="container dosis">
-        <hr id="missionVisionSeparator" style="padding-top: 3cm" />
+      <hr id="missionVisionSeparator" style="padding-top: 3cm" />
 
-        <div class="text-center aboutNucleus charlie" style="font-size: 50px; font-weight:800; margin-bottom: 2cm">
-            ABOUT NUCLEUS
+      <div
+        class="text-center aboutNucleus charlie"
+        style="font-size: 50px; font-weight:800; margin-bottom: 2cm"
+      >
+        ABOUT NUCLEUS
+      </div>
+
+      <div class="text-center aboutNucleus">
+        <img src="Images/Mission.JPG" />
+        <div class="HeaderTitle">
+          Our Mission
+        </div>
+        <div
+          id="missionDesc"
+          class="roboto"
+          style="width: 80%; margin-left: 10%"
+        >
+          In this project, our mission is to create an easy-to-use and
+          interactive system, with fulfilling functionalities to assist visitors
+          who are interested in the outdoor sculptures from the UOW Art
+          Collection.
+        </div>
+      </div>
+
+      <div class="text-center aboutNucleus">
+        <img src="Images/Vision.JPG" />
+        <div class="HeaderTitle">
+          Our Vision
+        </div>
+        <div class="roboto" style="width: 80%; margin-left: 10%">
+          Our vision is to deliver an application with great user experience ,
+          enabling the UOW Art Collection to achieve their goals of attracting
+          more visitors and making art an integral part of campus life.
+        </div>
+      </div>
+
+      <hr
+        id="meetOurTeamSeparator"
+        style="margin-top: 3cm; margin-bottom: 2cm"
+      />
+
+      <div class="text-center">
+        <div class="HeaderTitle">
+          Meet Our Team
+        </div>
+        <span class="annotation"
+          >Our team is established with highly skilled and enthusiastic
+          individuals from different backgrounds.</span
+        >
+      </div>
+
+      <div id="meetOurTeamBody" class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/ThaoPham.jpg"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Thao Pham</div>
+                    <div class="memberRole">Project Manager</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Business Information System
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/LongHung.jpg"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Long Hung</div>
+                    <div class="memberRole">Back-End Developer</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Computer Science
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/HieuChu.jpg"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Hieu Chu</div>
+                    <div class="memberRole">Front-End Developer</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Computer Science
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="text-center aboutNucleus">
-            <img src="Images/Mission.JPG" />
-            <div class="HeaderTitle">
-                Our Mission
+        <br />
+        <!-- Second Row -->
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/HoaiNam.jpg"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Nam Nguyen</div>
+                    <div class="memberRole">System Analyst</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Computer Science
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="missionDesc" class="roboto" style="width: 80%; margin-left: 10%">In this project, our mission is to create an easy-to-use interactive system, with fulfilling functionalities to assist visitors who are interested in the outdoor sculptures from the UOW Art Collection.</div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/NamJose.PNG"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Nam Bui</div>
+                    <div class="memberRole">UI/UX Designer</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Computer Science
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 87%">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <div>
+                      <img
+                        src="Images/Members/MinhNguyen.PNG"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="avatarName">Minh Nguyen</div>
+                    <div class="memberRole">Database Developer</div>
+                  </div>
+
+                  <div class="memberInfo">
+                    <div class="memberMajor annotation">
+                      Bachelor of Computer Science
+                    </div>
+                    <div class="memberUni annotation">
+                      University of Wollongong
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="text-center aboutNucleus">
-            <img src="Images/Vision.JPG" />
-            <div class="HeaderTitle">
-                Our Vision
-            </div>
-            <div class="roboto" style="width: 80%; margin-left: 10%">Our vision is to deliver the most beneficial application to our customer, enabling the UOW Art Collection to achieve their goals of attracting more visitors and making art an integral part of campus life.</div>
-        </div>
-
-        <hr id="meetOurTeamSeparator" style="margin-top: 3cm; margin-bottom: 2cm">
-
-        <div class="text-center">
-            <div class="HeaderTitle">
-                Meet Our Team
-            </div>
-            <span class="annotation">Our team is established with highly skilled and enthusiastic individuals from different backgrounds.</span>
-        </div>
-
-        <div id="meetOurTeamBody" class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/ThaoPham.jpg" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Thao Pham</div>
-                                    <div class="memberRole">Project Manager</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Business Information System</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card"  style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/LongHung.jpg" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Long Hung</div>
-                                    <div class="memberRole">Back-End Developer</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card"  style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/HieuChu.jpg" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Hieu Chu</div>
-                                    <div class="memberRole">Front-End Developer</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <br>
-            <!-- Second Row -->
-            <div class="row">
-                <div class="col">
-                    <div class="card"  style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/HoaiNam.jpg" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Nam Nguyen</div>
-                                    <div class="memberRole">System Analyst</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card"  style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/NamJose.PNG" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Nam Bui</div>
-                                    <div class="memberRole">UI/UX Designer</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="width: 87%">
-                        <div class="card-body">
-
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div>
-                                        <img src="Images/Members/MinhNguyen.PNG" width="80" height="80">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="avatarName">Minh Nguyen</div>
-                                    <div class="memberRole">Database Developer</div>
-                                    
-                                </div>
-                                
-                                <div class="memberInfo">
-                                    <div class="memberMajor annotation">Bachelor of Computer Science</div>
-                                    <div class="memberUni annotation">University of Wollongong</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
+      </div>
     </div>
 
     <div id="contactUsContainer" class="container text-center">
-        <hr id="contactUsSeparator">
-        <div>
-            <img src="Images/contactUs.JPG" >
-            <div id="contactTitle" class="dosis">We are here to help !</div>
-            <div id="contactGetInTouch" class="dosis">Let's get in touch:</div>
-            <div id="contactEmail" class="container">
-                <div class="row">
-                    <div class="col-5 text-right">
-                        <i class="fas fa-envelope fa-2x"></i>
-                    </div>
-                    <div id="contactEmailLink" class="col text-left">
-                        tptp904@uowmail.edu.au
-                    </div>
-                </div>
+      <hr id="contactUsSeparator" />
+      <div>
+        <img src="Images/contactUs.JPG" />
+        <div id="contactTitle" class="dosis">We are here to help !</div>
+        <div id="contactGetInTouch" class="dosis">Let's get in touch:</div>
+        <div id="contactEmail" class="container">
+          <div class="row">
+            <div class="col-5 text-right">
+              <i class="fas fa-envelope fa-2x"></i>
             </div>
+            <div id="contactEmailLink" class="col text-left">
+              tptp904@uowmail.edu.au
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="copyRightContainer">
-        <div class="container" style="padding-top: 1cm">
-            <div style=" width: 300px; float: left;">
-                <div class="row">
-                    <div class="col-2" style="padding-left: 8">
-                        <img id="copyRightLogo" src="Images/nucleus_logo.JPG" />
-                    </div>
-                    <div class="col">
-                        <span id="copyRightBrandName">NUCLEUS</span>
-                    </div>
-                </div>
+      <div class="container" style="padding-top: 1cm">
+        <div style=" width: 300px; float: left;">
+          <div class="row">
+            <div class="col-2" style="padding-left: 8">
+              <img id="copyRightLogo" src="Images/nucleus_logo.JPG" />
             </div>
-            <div id="copyRightContent">Copyright &copy; 2019 Nucleus</div>
+            <div class="col">
+              <span id="copyRightBrandName">NUCLEUS</span>
+            </div>
+          </div>
         </div>
+        <div id="copyRightContent">Copyright &copy; 2019 Nucleus</div>
+      </div>
     </div>
 
     <script src="Scripts/aos/aos.js"></script>
     <script type="text/javascript">
-        AOS.init();
+      AOS.init()
     </script>
-</body>
-
+  </body>
 </html>

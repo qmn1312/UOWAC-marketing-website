@@ -1,553 +1,549 @@
 /* Nav Bar */
 
 #nucleusLogo {
-    width: 50px;
-    height: 50px;
-    border-radius: 1cm;
-    border: whitesmoke solid 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 1cm;
+  border: whitesmoke solid 2px;
 }
 
 .roboto {
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
 .dosis {
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
 }
 
-
-
 #navBar {
-    padding-top: 0px;
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  padding-top: 0px;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
 #navbarNav {
-    font-size: 14px;
-    font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-
 #navbarNav .dropdown-item {
-    font-size: 16px;
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
-    /* -webkit-font-smoothing: antialiased; */
-} 
+  font-size: 16px;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+}
 
 #brandName {
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 50px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
 }
 
 #contactNav {
-    border-radius: 1cm;
-    line-height: 27px;
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
-    margin-top: -2px;
-    font-weight: 800;
-} 
+  border-radius: 1cm;
+  line-height: 27px;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  margin-top: -2px;
+  font-weight: 800;
+}
 
 #contactNav:hover {
-    color: white;
-} 
+  color: white;
+}
 
 .btn-outline-light {
-    background-color: transparent;
-    border-radius: 1cm;
-    color: white;
-    border-color: white;
-    outline: none !important;
-    box-shadow: none;
-} 
+  background-color: transparent;
+  border-radius: 1cm;
+  color: white;
+  border-color: white;
+  outline: none !important;
+  box-shadow: none;
+}
 
-.btn-outline-light:hover, .btn-outline-light:active {
-    background-color: white;
-    border-color: transparent;
-    color: black;
-    outline: none !important;
-    box-shadow: none;
+.btn-outline-light:hover,
+.btn-outline-light:active {
+  background-color: white;
+  border-color: transparent;
+  color: black;
+  outline: none !important;
+  box-shadow: none;
 }
 
 #navbarNav > .mx-auto > li {
-    margin-left: 1cm;
+  margin-left: 1cm;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(172, 164, 164)
+  color: rgb(172, 164, 164);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    background-color: rgb(250, 250, 250);
-    text-decoration: underline;
+  background-color: rgb(250, 250, 250);
+  text-decoration: underline;
 }
 
 .dropdown-menu {
-    left: 50%;
-    transform: translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-item {
-    height: 1cm;
+  height: 1cm;
 }
 
 .dropdown-item:hover {
-    background-color: #0C2340;
-    color: white;
+  background-color: #0c2340;
+  color: white;
 }
-
 
 /* Introduction */
 
 #brandingPhilosophy {
-    width: 100%;
-    height: 15cm;
-    background-color: #0C2340;
-    /* #c03030; */
-    background-image: linear-gradient(to bottom right, #375fb4 , #b83f63);
+  width: 100%;
+  height: 15cm;
+  background-color: #0c2340;
+  /* #c03030; */
+  background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
 }
 
 #introduction {
-    color: white;
+  color: white;
 }
 
 #introductionText {
-    padding-left: 30px;
-    padding-top: 100px;
+  padding-left: 30px;
+  padding-top: 100px;
 }
 
 #introductionText h1 {
-    font-size: 50px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+  font-size: 50px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
 }
 
 #introductionText button {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #introductionDesc {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 18px;
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
 #landingPage {
-    padding-left: 2cm;
-    box-shadow: 5px;
+  padding-left: 2cm;
+  box-shadow: 5px;
 }
 
 /* Client */
 
 #clientContainer {
-    margin-top: 3cm;
+  margin-top: 3cm;
 }
 
-.clientTitle{
-    font-size: 40px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
-    color: #375fb4;
-    margin-bottom: 2cm;
+.clientTitle {
+  font-size: 40px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
+  color: #375fb4;
+  margin-bottom: 2cm;
 }
 
-.clientHeader{
-    font-size: 27px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
-    color: #375fb4;
-    margin-bottom: 0.5cm;
+.clientHeader {
+  font-size: 27px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
+  color: #375fb4;
+  margin-bottom: 0.5cm;
 }
 
 #keyContacts {
-    color: #375fb4;
-    font-size: 18px;
+  color: #375fb4;
+  font-size: 18px;
 }
 
 .directClient i {
-    color: #375fb4;
+  color: #375fb4;
 }
 
 .directClient .row {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .directClientNameRole {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .directClientEmail {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .directClientEmail:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Why this app */
 #whyThisAppContent {
-    padding-top: 2cm;
+  padding-top: 2cm;
 }
 
 #whyThisAppHeader {
-    font-size: 40px;
-    margin-bottom: 70px;
+  font-size: 40px;
+  margin-bottom: 70px;
 }
 
-.reasonIconHeader{
-    margin-bottom: 30px;
-    color: #375fb4;
+.reasonIconHeader {
+  margin-bottom: 30px;
+  color: #375fb4;
 }
 
-.reasonHeader{
-    font-size: 25px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
-
+.reasonHeader {
+  font-size: 25px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
 }
 
 .reasonBody {
-    font-size: 15px;
-    width: 90%;
-    /* text-align: justify; */
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  font-size: 15px;
+  width: 90%;
+  /* text-align: justify; */
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
 /* User Interface */
 
 #UIContainer {
-    margin-bottom: 3cm;
-
+  margin-bottom: 3cm;
 }
 
 #UICarousel {
-    margin-top: 2cm;
-    background-color: #F5FAFD;
-    border-radius: 1cm;
-    height: 18cm;
+  margin-top: 2cm;
+  background-color: #f5fafd;
+  border-radius: 1cm;
+  height: 18cm;
 }
 
 #UICarousel li {
-    background-color : rgb(172, 164, 164);
+  background-color: rgb(172, 164, 164);
 }
 
 #UICarousel li.active {
-    background-color : #0C2340
+  background-color: #0c2340;
 }
 
-.carousel-inner .row{
-    margin-left: 3.3cm;
+.carousel-inner .row {
+  margin-left: 3.3cm;
 }
 
 .imgDesc {
-    font-size: 18px;
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
-    font-weight: 800;
-    margin-top: -1cm
+  font-size: 18px;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  font-weight: 800;
+  margin-top: -1cm;
 }
 
 /* Issue */
 
 #issuesContainer {
-    margin-top:3cm;
-    margin-bottom: 3cm;
+  margin-top: 3cm;
+  margin-bottom: 3cm;
 }
 
-
 #issuesHeader {
-    padding-top: 80px;
-    padding-left: 20%;
-    padding-right: 20%;
-    color: orange;
+  padding-top: 80px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: orange;
 }
 
 .HeaderTitle {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 #issuesHeaderTitle {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .ContentBody {
-    padding-top: 2cm;
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
+  padding-top: 2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
 }
 
 #issuesBody {
-    padding-top: 2cm;
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
+  padding-top: 2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
 }
 
 .issueName {
-    font-size: 20px;
-    color: orange;
+  font-size: 20px;
+  color: orange;
 }
 
 .issueName .col {
-    font-size: 20px;
-    line-height: 40px;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 #googleMyMap {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
 }
 
-#issueDetails .card:nth-child(n+2) {
-    margin-top: 20px;
+#issueDetails .card:nth-child(n + 2) {
+  margin-top: 20px;
 }
 
 #issueDetails .card {
-    border-radius: 0.3cm;
+  border-radius: 0.3cm;
 }
 
 #issueDetails .col-3 {
-    text-align: center;
+  text-align: center;
 }
 
 #issueDetails i {
-    color: orange;
+  color: orange;
 }
 
 #issueDetails h6 {
-    color: rgb(173, 168, 168);
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
-    font-size: 14px;
-    margin-top: 10px;
+  color: rgb(173, 168, 168);
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
 }
-
 
 /* End Users */
 
 #endUsersContainer {
-    margin-bottom: 3cm;
+  margin-bottom: 3cm;
 }
 
-#endUsersBody{
-    padding-top: 3cm;
+#endUsersBody {
+  padding-top: 3cm;
 }
 
-#endUsersHeader{
-    color: #375fb4;
+#endUsersHeader {
+  color: #375fb4;
 }
 
-#endUsersDetails .card:nth-child(n+2) {
-    margin-top: 45px;
+#endUsersDetails .card:nth-child(n + 2) {
+  margin-top: 45px;
 }
 
-#endUsersDetails .card{
-    height: 120px;
-    /* background-color: #F5FAFD; */
+#endUsersDetails .card {
+  height: 120px;
+  /* background-color: #F5FAFD; */
 }
 
 #endUsersDetails .col-3 {
-    text-align: center;
+  text-align: center;
 }
 
 #endUsersDetails .col {
-    padding-top: 0cm;
+  padding-top: 0cm;
 }
 
 #endUsersDetails i {
-    color: #375fb4;
+  color: #375fb4;
 }
 
 #endUsersDetails h5 {
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
-    font-size: 15px;
-    margin-top: 10px;
-    color: rgb(173, 168, 168);
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  color: rgb(173, 168, 168);
 }
 
 /* Design Methodology */
 
 .charlie {
-    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 #kanbanTitle {
-    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
-    font-weight: 700;
-    color: #0052CC;
+  font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 700;
+  color: #0052cc;
 }
 
 .kanbanHeader {
-    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
-    font-weight: 650;
-    color: #0052CC;
-    font-size: 30px;
-    margin-bottom: 40px;
+  font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 650;
+  color: #0052cc;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
 #whatIsKanbanContent {
-    font-style: oblique;
-    font-size: 18px;
-    width: 85%;
-    margin-left: 5%;
-    line-height: 1cm;
+  font-style: oblique;
+  font-size: 18px;
+  width: 85%;
+  margin-left: 5%;
+  line-height: 1cm;
 }
 
-#kanbanPrinciplesContainer{
-    margin-top: 2cm;
+#kanbanPrinciplesContainer {
+  margin-top: 2cm;
 }
 
 .kanbanPrinciple {
-    font-size: 22px;
-    line-height: 20px;
+  font-size: 22px;
+  line-height: 20px;
 }
 
 #kanbanPrinciplesContent i {
-    font-size: 25px;
-    color: #0052CC;
+  font-size: 25px;
+  color: #0052cc;
 }
 
 #kanbanPrinciplesContent .row {
-    margin-bottom: 1cm;
+  margin-bottom: 1cm;
 }
 
 #kanbanBenefitsContent i {
-    font-size: 28px;
-    color: #28a745!important;
+  font-size: 28px;
+  color: #28a745 !important;
 }
 
 #kanbanBenefitsContent .row {
-    margin-bottom: 1.5cm;
+  margin-bottom: 1.5cm;
 }
 
 .kanbanBenefit {
-    font-size: 25px;
-    line-height: 20px;
+  font-size: 25px;
+  line-height: 20px;
 }
 
 /* Mission Vision */
 .aboutNucleus {
-    margin-bottom: 2cm;
+  margin-bottom: 2cm;
 }
 
 .aboutNucleus .HeaderTitle {
-    margin-bottom: 0.5cm;
-    font-size: 40px;
+  margin-bottom: 0.5cm;
+  font-size: 40px;
 }
 
 .aboutNucleus .roboto {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* Meet Our Team */
 .annotation {
-    color: rgb(173, 168, 168);
-    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  color: rgb(173, 168, 168);
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
 #meetOurTeamBody {
-    margin-top : 3cm;
+  margin-top: 3cm;
 }
 
 #meetOurTeamBody .card {
-    border-radius: 0.5cm;
-    margin-left: 5%;
-    height: 5cm;
+  border-radius: 0.5cm;
+  margin-left: 5%;
+  height: 5cm;
 }
 
 #meetOurTeamBody .row {
-    margin-bottom: 0.5cm;
+  margin-bottom: 0.5cm;
 }
 
 #meetOurTeamBody img {
-    border-radius: 5cm;
-    border: whitesmoke solid 3px;
+  border-radius: 5cm;
+  border: whitesmoke solid 3px;
 }
 
 .avatarName {
-    font-weight: 900;
-    padding-top: 5px;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+  font-weight: 900;
+  padding-top: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .memberRole {
-    font-size: 16px;
-    text-transform: uppercase;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .memberMajor {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .memberUni {
-    margin-top: 5px;
-    font-size: 13px;
+  margin-top: 5px;
+  font-size: 13px;
 }
 
 .memberInfo {
-    margin-top: 20px;
-    margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 #meetOurTeamContainer {
-    margin-top: 3cm;
-    margin-bottom: 3cm;
+  margin-top: 3cm;
+  margin-bottom: 3cm;
 }
-
 
 /* Contact Us */
 
 #contactUsContainer {
-    margin-bottom: 1.5cm;
+  margin-bottom: 1.5cm;
 }
 
 #contactTitle {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 #contactGetInTouch {
-    margin-top: 30px;
-    font-size: 30px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 #contactEmail {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-#contactEmailLink{
-    font-size: 20px;
-    line-height: 25px;
-    cursor: pointer;
-}
-
-#contactEmailLink:hover {
-    text-decoration: underline;
+#contactEmailLink {
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /* Copyright */
 #copyRightContainer {
-    height: 3cm;
-    background-image: linear-gradient(to bottom right, #375fb4 , #b83f63);
+  height: 3cm;
+  background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  box-shadow: 0 0 50px -10px rgba(0, 31, 48, 0.2);
 }
 
 #copyRightContainer .container {
-    height: 100%;
+  height: 100%;
 }
 
 #copyRightBrandName {
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 50px;
-    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
+  color: white;
 }
 
 #copyRightLogo {
-    width: 50px;
-    height: 50px;
-    border-radius: 1cm;
-    border: whitesmoke solid 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 1cm;
+  border: whitesmoke solid 2px;
 }
 
 #copyRightContent {
-    margin-top: 0.3cm;
-    color: white;
-    float: right;
+  margin-top: 0.3cm;
+  color: white;
+  float: right;
+}
+
+.shadowNavBar {
+  box-shadow: 0 0 50px -10px rgba(0, 31, 48, 0.2);
 }
